@@ -1,0 +1,1 @@
+This is part of Scrimba.com's intro to firebase course.
