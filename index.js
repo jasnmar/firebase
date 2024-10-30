@@ -1,6 +1,19 @@
 /* === Imports === */
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+//FEEDBACK: Working locally I had to use the Web link rather than
+//the NPM version, as I'm not using a bundler of any kind right now (maybe I 
+//need to be using a bundler)
 
 /* === Firebase Setup === */
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCJwrc6CKnA4HqFrWbG5eIf4186JgeMg7w",
+  authDomain: "moody-3cb76.firebaseapp.com",
+  projectId: "moody-3cb76",
+  storageBucket: "moody-3cb76.firebasestorage.app",
+};
+const app = initializeApp(firebaseConfig);
+
 
 /* === UI === */
 
